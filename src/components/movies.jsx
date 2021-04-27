@@ -7,6 +7,7 @@ import { paginate } from "./utils/paginate";
 import "../styles/cursor.css";
 import MoviesTable from "./moviestable";
 import _ from "lodash";
+import { Link } from "react-router-dom";
 
 class Movies extends Component {
   state = {
@@ -85,6 +86,13 @@ class Movies extends Component {
           </div>
 
           <div className="col">
+            <Link
+              className="btn btn-primary"
+              to="/newmovie"
+              style={{ marginBottom: 10 }}
+            >
+              New Movie
+            </Link>
             <MoviesTable
               movies={movies}
               sortColumn={this.state.sortColumn}
