@@ -5,7 +5,6 @@ import LoginForm from "./components/loginForm";
 import SignupForm from "./components/signupForm";
 import MovieForm from "./components/movieForm";
 import NotFound from "./components/notFound";
-import ToDo from "./components/todo";
 import { Switch, Route, Redirect } from "react-router-dom";
 
 function App() {

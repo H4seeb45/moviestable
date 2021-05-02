@@ -75,6 +75,9 @@ class Movies extends Component {
 
     return (
       <div className="container mt-5">
+        <div className="mb-4">
+          <h3>Movies for Rent</h3>
+        </div>
         <div className="row">
           <div className="col-2">
             {" "}
