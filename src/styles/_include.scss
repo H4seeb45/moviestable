@@ -1,0 +1,12 @@
+// Functions
+@import "./bs/functions"; // Bootstrap core function
+@import "functions"; // Bootstrap extended function
+
+// Variables
+@import "./variables/variables"; // Bootstrap custom variable override (for user purpose)
+@import "./variables"; // Bootstrap extended variable override
+@import "./bs/variables"; // Bootstrap core variable
+
+// Mixins
+@import "./bs/mixins"; // Bootstrap core mixins
+@import "mixins"; // Bootstrap extended mixins

@@ -41,6 +41,11 @@ const NavBar = () => {
               Rentals
             </Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/apps/todo">
+              Todo
+            </Link>
+          </li>
           <li>
             <Link className="nav-link" to="/Login">
               <button className="btn btn-primary">Login</button>

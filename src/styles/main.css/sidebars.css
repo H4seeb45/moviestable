@@ -1,0 +1,9 @@
+.sidebar .todo-sidebar {
+  width: 260px;
+  height: inherit;
+  display: flex;
+  background-color: #fff;
+  border-top-left-radius: 0.428rem;
+  border-bottom-left-radius: 0.428rem;
+  transition: all 0.3s ease, background 0s;
+}
