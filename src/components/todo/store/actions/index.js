@@ -4,14 +4,19 @@ import axios from "axios";
 export const getTasks = (params) => {
   console.log("gettasks method in actions called");
   return async (dispatch) => {
-    return axios.get("/apps/todo/tasks", { params }).then((res) => {
-      dispatch({
-        type: "GET_TASKS",
-        tasks: res.data,
-        params,
+    return axios
+      .get("/apps/todo/tasks", { params })
+      .then((res) => {
+        dispatch({
+          type: "GET_TASKS",
+          tasks: res.data,
+          params,
+        });
+        console.log("response of axios");
+      })
+      .catch((error) => {
+        console.log(error);
       });
-      console.log("response of axios");
-    });
   };
 };
 
